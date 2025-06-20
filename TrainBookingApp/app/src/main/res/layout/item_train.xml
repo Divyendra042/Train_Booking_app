@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:elevation="2dp"
+    android:backgroundTint="#F8F8F8">
+
+    <!-- 🚆 Train Name -->
+    <TextView
+        android:id="@+id/trainNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Train Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <!-- 🛤️ Route: From - To -->
+    <TextView
+        android:id="@+id/trainRouteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From A to B"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginTop="2dp" />
+
+    <!-- ⏰ Departure Time -->
+    <TextView
+        android:id="@+id/trainTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Departure: 10:00 AM"
+        android:textSize="14sp"
+        android:textColor="#444444"
+        android:layout_marginTop="4dp" />
+
+    <!-- 🪑 Available Seats -->
+    <TextView
+        android:id="@+id/availableSeatsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seats Available: 50"
+        android:textSize="14sp"
+        android:textColor="#444444"
+        android:layout_marginTop="4dp" />
+
+    <!-- 💸 Fare -->
+    <TextView
+        android:id="@+id/fareTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fare: ₹200.0"
+        android:textSize="14sp"
+        android:textColor="#006400"
+        android:layout_marginTop="4dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
